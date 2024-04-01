@@ -9,7 +9,7 @@ fn gen_fib(n: usize) -> Vec<usize> {
         fib.push(fib[i - 2] + fib[i - 1]);
     }
 
-    return fib;
+    fib
 }
 
 fn main() {
